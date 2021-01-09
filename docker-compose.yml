@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  expressapi:
+    build:
+      context: .
+      dockerfile: Docker/DockerFile
+    restart: unless-stopped
+    ports: 
+      - 8001:8001

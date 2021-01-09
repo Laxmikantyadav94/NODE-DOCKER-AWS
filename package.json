@@ -1,0 +1,15 @@
+{
+  "name": "Node_Api_docker_AWS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "laxmikant04 <laxmikant041094@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
