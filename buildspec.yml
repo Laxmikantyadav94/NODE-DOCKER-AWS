@@ -15,4 +15,8 @@ phases:
     commands: 
       - "echo Logging in to Docker Hub..."
       - "docker login --username=\"laxmikant04\" --password=\"L@xikant94\""
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: yes
 version: 0.1
