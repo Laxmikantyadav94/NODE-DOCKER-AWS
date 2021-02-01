@@ -3,7 +3,7 @@ const app =express();
 const router = express.Router();
 
 router.get('/',(req,res,next)=>{
-    res.send("working");
+    res.send("working great :D ");
 })
 router.get('/user',(req,res,next)=>{
     res.send("this is user response");
