@@ -13,7 +13,6 @@ router.get('/product',(req,res,next)=>{
     res.send("this is product response");
 })
 
-
 app.use(router);
 
 app.listen('8080',()=>{
