@@ -16,6 +16,6 @@ router.get('/product',(req,res,next)=>{
 
 app.use(router);
 
-app.listen('8001',()=>{
+app.listen('8080',()=>{
     console.log("server started");
 })
