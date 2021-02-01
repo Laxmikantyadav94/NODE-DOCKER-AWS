@@ -4,13 +4,13 @@ phases:
     commands: 
       - "echo Build started on `date`"
       - "echo Building the Docker image..."
-      - "docker build . -t node-server -f Docker/Dockerfile"
-      - "docker tag node-server node-server:latest"
+      - "docker build . -t laxi/node-server -f Docker/Dockerfile"
+      - "docker tag laxi/node-server laxi/node-server:latest"
   post_build: 
     commands: 
       - "echo Build completed on `date`"
       - "echo Pushing the Docker image..."
-      - "docker push node-server:latest"
+      - "docker push laxi/node-server:latest"
   pre_build: 
     commands: 
       - "echo Logging in to Docker Hub..."
